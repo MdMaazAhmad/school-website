@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiInputBase-root .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-radius: 10px !important;
+}
+aside {
+  min-width: 230px !important;
+  max-width: 300px !important;
+}
+.Sidebar-menu.ant-menu-item-selected {
+  border-bottom: 5px solid white !important;
+  border-radius: 0px !important;
+  border-top: 5px solid white !important;
+  border-left: 5px solid !important;
+  margin: 0px !important;
+  background: white !important;
+}
+.search-input::placeholder {
+  color: #8ba3cb;
+}
+.ant-modal-content {
+  padding: 0px !important;
+}
+.ant-modal-header {
+  padding: 21px 24px 13px 24px !important;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+}
+.ant-modal-body {
+  padding: 23px 28px 23px 28px !important;
+}
+.ant-modal-footer {
+  padding: 0px 28px 29px 28px !important;
+}
+/* .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    border: none !important;
+    border-radius: 10px !important;
+} */
